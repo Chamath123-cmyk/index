@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LearnX</title>
+    <link rel="stylesheet" href="css/istyle.css" />
+    <link rel="stylesheet" href="css/darkMode.css" />
+    <link rel="website icon" type="jpg" href="img/logo.png">
+  </head>
+  <body>
+    <!-- background moving animation -->
+    <div class="moving-shapes">
+      <div class="moving-shape"></div>
+      <div class="moving-shape"></div>
+      <div class="moving-shape"></div>
+      <div class="moving-shape"></div>
+    </div>
+
+    <!-- Navbar -->
+    <header id="home">
+      <nav class="navbar">
+        <h1><span class="learn logo">Learn</span><span class="x">X</span></h1>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#process">Our Process</a></li>
+          <li><a href="#leanx-ai">LearnX AI</a></li>
+          <li><a href="#marks-analyze">Marks Analyze</a></li>
+          <li><a href="#aboutUs">About Us</a></li>
+          <li><a href="#contactUs">Contact Us</a></li>
+          <button class="dark-mode-toggle">
+            <span class="toggle-icon"></span>
+          </button>
+        </ul>
+        <a href="login.php"><button class="get-started-btn">Get Started</button></a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Your Journey<br />to Mastery <span>Starts Here.</span></h1>
+        <p>
+          LearnX is an intuitive LMS that delivers personalized learning
+          experiences, empowering individuals and organizations with engaging
+          courses, progress tracking, and accessible tools for success—anytime,
+          anywhere.
+        </p>
+        <a href="login.php"><button class="get-started-btn" style="margin: 10px">
+          Get Started
+        </button></a>
+      </div>
+      <div class="hero-image">
+        <img src="img/about-left-image.png" width="200px" />
+      </div>
+    </section>
+
+
+    <style>
+      .static{
+        position: fixed;
+        z-index: 1999;
+        margin-left: 1250px;
+        top: 550px;
+      }
+
+    </style>
+    <section class="static">
+      <div>
+        <a href="http://127.0.0.1:5000/"><img src="img/AI2.gif" alt="" title="Get Help" width="200px"></a>
+      </div>
+    </section>
+
+
+    <!-- Our Process -->
+    <section id="process" class="our-process-section">
+      <h2>Our Process</h2>
+      <div class="process-scroll-container">
+        <div class="process-item">
+          <img src="img/ideas.jpg" alt="Step 1" />
+          <div class="process-content">
+            <p>Sign Up</p>
+          </div>
+        </div>
+        <div class="process-item">
+          <img src="img/research.jpg" alt="Step 2" />
+          <div class="process-content">
+            <p>Explore Courses</p>
+          </div>
+        </div>
+        <div class="process-item">
+          <img src="img/design.jpg" alt="Step 3" />
+          <div class="process-content">
+            <p>Enroll and Learn</p>
+          </div>
+        </div>
+        <div class="process-item">
+          <img src="img/finish.jpg" alt="Step 4" />
+          <div class="process-content">
+            <p>Track Progress</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- LearX AI -->
+    <section id="leanx-ai">
+      <div class="leanx-ai-container">
+        <div class="leanx-ai-text">
+          <h1>Welcome to LearnX AI</h1>
+          <p>
+            LearnX AI enhances learning and teaching by offering 
+            personalized recommendations, instant feedback, and 
+            automating routine tasks. It creates a smarter, more
+            efficient educational experience for students, 
+            teachers, and admins alike.
+          </p>
+          <ul>
+            <li>Personalize Learning</li>
+            <li>Smart Recommendations</li>
+            <li>Time management</li>
+            <li>Interactive Experience</li>
+          </ul>
+          <a href="http://127.0.0.1:5000/"><button class="get-started-btn">Get Started</button></a>
+        </div>
+        
+        <div class="leanx-ai-image">
+          <img src="img/AI WB.gif" alt="LeanX AI Illustration" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Marks Analyze -->
+    <section id="marks-analyze">
+      <div class="marks-title">Marks Analyze</div>
+      <div class="marks-content">
+        
+        <div class="ma-gif">
+          <img
+            src="img/pie-chart.gif"
+            
+            style="margin-left: 170px; border-radius: 20px"
+          />
+        </div>
+        <div class="marks-details">
+          <h3>Features :</h3>
+          <p>
+            &#10003; Top Performers: Identify top students in a
+            subject/class.<br /><br />
+            &#10003; Weak Areas: Highlight subjects/topics where students scored
+            the lowest. <br /><br />
+            &#10003; Comparison Metrics: Compare performance between exams or
+            students. <br /><br />
+            &#10003; Class Averages: Calculate average scores for subjects and
+            exams.
+          </p>
+          <a href="login.php"><button class="analyze-button">View Full Analysis</button></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About us -->
+    <div id="aboutUs" class="about-us-section">
+      <h1>About Us</h1>
+      <p>
+        Welcome to our platform! We are a passionate team of four individuals
+        dedicated to making a difference. Our mission is to create an intuitive,
+        efficient, and user-friendly Learning Management System (LMS) that
+        simplifies education for teachers and students alike.
+      </p>
+
+      <h2>Meet Our Team</h2>
+      <div class="team-members">
+        <div class="member">
+          <a href="img/chamath.jpg" target="_blank"> <img src="img/chamath.jpg" alt="Team Member 1" /></a>
+          <h3>Chamath Neranjana</h3>
+          <p>FullStack Developer</p>
+          <p>Leader</p>
+          <p>
+            Email: <a href="mailto:chamathneranjana854@gmail.com">chamathneranjana@gmail.com</a>
+          </p>
+          <p>Phone: <a href="tel:+94 70 290 3738">++94 70 290 3738</a></p>
+        </div>
+        <div class="member">
+          <a href="img/achintha.jpg" target="_blank"><img src="img/achintha.jpg" alt="Team Member 2" /></a>
+          <h3>Achintha </h3>
+          <p>Frontend Developer</p>
+          <p>Member</p>
+          <p>
+            Email:
+            <a href="mailto:achintha200932@gmail.com">achintha200932@gmail.com </a>
+          </p>
+          <p>Phone: <a href="tel:+94 78 833 0434">+94 78 833 0434</a></p>
+        </div>
+        <div class="member">
+          <a href="img/induwara.jpg" target="_blank" ><img src="img/induwara.jpg" alt="Team Member 3" /></a>
+          <h3>Induwara</h3>
+          <p>Developer</p>
+          <p>Member</p>
+          <p>
+            Email:  
+            <a href="mailto:induwaraakith@gmail.com">induwaraakith@gmail.com</a>
+          </p>
+          <p>Phone: <a href="tel:+94 76 462 0077">+94 76 462 0077</a></p>
+        </div>
+        <div class="member">
+          <a href="img/gihansith.png" target="_blank"><img src="img/gihansith.png" alt="Team Member 4" /></a>
+          <h3>Gihansith </h3>
+          <p>Developer</p>
+          <p>Member</p>
+          <p>
+            Email:
+            <a href="mailto:webexpressteam01@gmail.com">webexpress@gmail.com</a>
+          </p>
+          <p>Phone: <a href="tel:+94 76 306 3271">+94 76 306 3271</a></p>
+        </div>
+      </div>
+
+      <div>
+          <h2>Why We Built This</h2>
+        <p>
+          Our journey began with the realization that educators and students face
+          many challenges in managing and accessing educational resources. We
+          wanted to create a solution that bridges these gaps and makes learning
+          more accessible and engaging.
+        </p>
+
+        <h2>Our Purpose</h2>
+        <p>
+          Our purpose is to empower educators with the tools they need to deliver
+          quality education efficiently and to provide students with an
+          interactive and supportive learning environment.
+        </p>
+
+        <h2>How This Helps</h2>
+        <ul>
+          <li>Simplifies the management of courses, assignments, and grades.</li>
+          <li>Improves communication between teachers and students.</li>
+          <li>Provides a centralized hub for all educational activities.</li>
+          <li>
+            Incorporates innovative technology to enhance learning experiences.
+          </li>
+        </ul>
+      </div>
+      
+    </div>
+
+    <!-- Contact Us -->
+    <div id="contactUs" class="contact-us-section">
+      <h2>Contact Us</h2>
+      <p>
+        We'd love to hear from you! Fill out the form below to get in touch with
+        us.
+      </p>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+    
+
+    <!-- footer -->
+    <footer class="footer">
+      <hr>
+      <div class="footer-container">
+        <div class="logo">
+          <h1><span class="learn logo">Learn</span><span class="x">X</span></h1>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#services">Services</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="#privacy-policy">Privacy Policy</a></li>
+            <li><a href="#terms">Terms of Service</a></li>
+            <li><a href="#help-center">Help Center</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+
+
+        <style>
+          .footer-section a{
+            color: white;
+          }
+        </style>
+
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p>
+            Email: <a href="mailto:chamathneranjana854@gmail.com">mihinthalemv@gmail.com</a>
+          </p>
+          <p>Phone: <a href="tel:+1234567890">025 365 8694</a></p>
+          <div class="social-links">
+            <a href="#facebook" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#twitter" aria-label="Twitter"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="#instagram" aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#linkedin" aria-label="LinkedIn"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2024 Your LearnX. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/iscript.js"></script>
+  </body>
+</html>
