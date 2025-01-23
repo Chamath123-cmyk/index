@@ -1,0 +1,39 @@
+.nav a, .nav i ul {
+    margin: 20px;
+    text-decoration: none;   
+    list-style: none;
+    display: inline-flex;
+    font-size:30px;
+}
+
+.main-link li{
+    font-size:30px;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+}
+.nav-list{
+    text-align: center;
+}
+
+section .body{
+    display: block;
+}
+
+.all{
+    display: inline;
+}
+
+
+
+@media(max-width:321px){
+    .nav a, .nav  ul {
+        margin: auto;
+        text-decoration: none;
+        list-style: none;
+        display: inline-flex;
+        font-size: 20px;
+    }
+    
+}

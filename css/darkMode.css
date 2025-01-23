@@ -1,0 +1,96 @@
+/* ----------------->
+    #DARK MODE 
+-----------------> */
+
+:root {
+  --background-color-dark-mode: #13152e;
+  --background-color-light-mode: #f2fffe;
+  --navbar-color-dark-mode: #1f1f1f00;
+  --nav-links: #e0e0e0;
+  --white: #fff;
+  --text-blue-color: #007bff;
+  --body-text-color: #333;
+  --shadow-blue-color: rgba(0, 81, 255, 0.5);
+  --tile-hover-color: #0057b39f;
+}
+
+body.dark-mode {
+  background-color: var(--background-color-dark);
+}
+
+body.dark-mode .navbar {
+  background-color: var(--navbar-color-dark-mode);
+  backdrop-filter: blur(20px);
+}
+
+body.dark-mode .navbar .logo {
+  color: var(--white);
+}
+
+body.dark-mode .nav-links a {
+  color: var(--nav-links);
+}
+
+body.dark-mode .nav-links a:hover {
+  color: var(--text-blue-color);
+}
+
+body.dark-mode .get-started-btn {
+  background-color: var(--text-blue-color);
+  color: var(--white);
+}
+
+body.dark-mode .hero-content h1 {
+  color: var(--white);
+}
+
+body.dark-mode .x {
+  color: var(--text-blue-color);
+}
+
+body.dark-mode .hero-image img {
+  filter: brightness(0.8);
+  transition: filter 0.5s ease;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: var(--background-color-light-mode);
+  color: var(--body-text-color);
+}
+
+body.dark-mode {
+  background-color: var(--background-color-dark-mode);
+  color: var(--white);
+}
+
+body.dark-mode .our-process-section {
+  background-color: var(--background-color-dark-mode);
+}
+
+body.dark-mode .our-process-section h2 {
+  color: var(--white);
+}
+
+body.dark-mode .process-scroll-container {
+  background-color: var(--background-color-dark-mode);
+  box-shadow: 0 2px 5px var(--shadow-blue-color);
+}
+
+body.dark-mode .process-content {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .process-content p {
+  color: var(--white);
+}
+
+body.dark-mode .process-content:hover {
+  background-color: var(--tile-hover-color);
+}
+
+body.dark-mode .process-item span {
+  color: var(--white);
+}

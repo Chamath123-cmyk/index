@@ -1,0 +1,210 @@
+@keyframes img{
+    0%,100%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(5px);
+    }
+}
+
+.logo-img{
+    animation-name: img;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes login-form{
+    0%,100%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+}
+
+.login-form{
+    animation-name: login-for;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+}
+.login-form:hover{
+    animation: none;
+}
+.a-btn:hover{
+    transform: translateY(-5px);
+}
+
+@keyframes login-for{
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+}
+.login-for{
+    animation-name: login-for;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes nav{
+    0%,100%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+}
+.nav{
+    background: #b9c0f0a4;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.955);
+    grid-template-columns: 2fr 10fr 0.4fr 1fr;
+    align-items: center;
+    z-index: 1;
+}
+
+.nav-list ul{
+    color: rgb(201, 201, 252);
+    text-decoration: none;
+}
+
+.main-link a:hover{
+    transform: scale(1.1) translateY(-10px);
+    color: rgb(74, 74, 245);
+    text-decoration: underline;
+}
+
+.nav-list ul{
+    animation-name: nav;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+/*Animation For developers .php */
+
+@keyframes developer{
+    0%,100%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+}
+
+.developer{
+    animation-name: developer;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+}
+
+/* Animation for student_login.php */
+
+@keyframes sLogin{
+    0%,100%{
+        transform: translateY(-10);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+}
+.form{
+    animation-name: sLogin;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+}
+
+.btn:hover{
+    transform: scale(2px);
+    transform: translateY(-10px)
+}
+
+
+
+
+/* Animatoin for Home image */
+
+@keyframes home-img{
+    0%,100%{
+        transform: translateY(-10);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+}
+.home-img{
+    animation-name: home-img;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+}
+
+
+/* animatin for side bar(navigation bar) */
+.side-bar li:hover{
+    transform: scale(1.1) translateY(-6px);
+    /* transform: scale(1.1); */
+}
+
+
+/* animation for main classes */
+@keyframes main{
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+}
+.main, .main1, .main2, .main3, .main4{
+    animation-name: main;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+}
+
+.main:hover{
+    animation: none;
+}
+
+/* Animation for dashboard */
+
+.card:hover{
+    transform: scale(1.1);
+    animation: none;
+}
+@keyframes card{
+    0%,100%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+}
+.card, .table{
+    animation-name: card;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+}
